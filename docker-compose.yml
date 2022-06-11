@@ -16,7 +16,7 @@ services:
       - DB_HOST=nctutorials.chfghtldhaee.us-east-1.rds.amazonaws.com
       - DB_PORT=5432
       - DATABASE=postgres
-      - VIRTUAL_HOST=ec2-23-22-143-111.compute-1.amazonaws.com
+      - VIRTUAL_HOST=ec2-52-23-19-118.compute-1.amazonaws.com
       - VIRTUAL_PORT=8000
   nginx:
     build: ./nginx
